@@ -1,3 +1,9 @@
+sharePreferences双重锁：
+SharedPreferences常用封装工具类
+https://www.jianshu.com/p/ffef5cd396be
+https://blog.csdn.net/bzlj2912009596/article/details/87969295
+
+
 报错：通常一个模块包含另一个模块，原因是build.gradle中有组件的版本不一致。包含模块时，一定要注意版本号问题，解决是复制原始buildgradle中的版本号
 Manifest merger failed : Attribute application@appComponentFactory value=(androidx.core.app.CoreComponentFactory) from [androidx.core:core:1.1.0] AndroidManifest.xml:24:18-86
 	is also present at [com.android.support:support-compat:28.0.0] AndroidManifest.xml:22:18-91 value=(android.support.v4.app.CoreComponentFactory).
